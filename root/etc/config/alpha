@@ -41,5 +41,5 @@ config navbar
 	option enable 'Enable'
 	option line '5'
 	option newtab 'No'
-	option icon '/www/luci-static/alpha/gaya/icon/navbar/network.png'
+	option icon '/www/luci-static/alpha/gaya/icon/navbar/modem.png'
 	option address '/cgi-bin/luci/admin/network/network'
