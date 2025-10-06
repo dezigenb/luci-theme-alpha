@@ -1,5 +1,5 @@
 /*--------------------
-catatan usahakan untuk mengganti bg pakai format png, kalo jpg ganti aja di bagian body, sesuaikan aja nama formatnya
+Note: try to replace the background with a PNG format; if it's JPG, just change it in the body section, and adjust the format name accordingly.
 ---------------------*/
 *,
 *::before,
@@ -312,7 +312,6 @@ input[type=password] {
 
 input[type=text]:focus,
 input[type=password]:focus {
-	background-color: #f8f8c6;
 	outline: none;
 }
 
