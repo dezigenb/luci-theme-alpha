@@ -20,21 +20,21 @@ config navbar
 	option icon '/www/luci-static/alpha/gaya/icon/navbar/terminal.png'
 	option address '/cgi-bin/luci/admin/system/ttyd'
 
-config navbar
-	option name 'Open Clash'
+	config navbar
+	option name 'Filemanager'
 	option enable 'Enable'
 	option line '3'
 	option newtab 'No'
-	option icon '/www/luci-static/alpha/gaya/icon/navbar/openclash.png'
-	option address '/cgi-bin/luci/admin/services/openclash'
+	option icon '/www/luci-static/alpha/gaya/icon/navbar/filemanager.png'
+	option address '/cgi-bin/luci/admin/nas/tinyfilemanager'
 
 config navbar
-	option name 'Modem'
+	option name 'Open Clash'
 	option enable 'Enable'
 	option line '4'
 	option newtab 'No'
-	option icon '/www/luci-static/alpha/gaya/icon/navbar/modem.png'
-	option address '/cgi-bin/luci/admin/modem/main'
+	option icon '/www/luci-static/alpha/gaya/icon/navbar/openclash.png'
+	option address '/cgi-bin/luci/admin/services/openclash'
 
 config navbar
 	option name 'Network'
